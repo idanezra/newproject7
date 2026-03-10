@@ -6,8 +6,8 @@ import plotly.express as px
 st.set_page_config(page_title="Dashboard", layout="wide")
 
 # Title
-st.title("Iddan Dashboard")
-
+st.title("Idan Dashboard")
+print ('superddashboard')
 # Sidebar
 st.sidebar.header("Filters")
 selected_metric = st.sidebar.selectbox(
